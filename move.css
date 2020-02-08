@@ -1,0 +1,88 @@
+#box {
+    border: 3px solid black;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 32%;
+    top: 10%;
+
+}
+
+.circle {
+    border: 3px solid black;
+    border-radius: 100%;
+    width:450px;
+    height: 450px;
+    position: absolute;
+    top:5%;
+    left:5%;
+}
+
+.key {
+    border: 2px solid black;
+    width: 75px;
+    height: 75px;
+
+}
+
+.up {
+    position: absolute;
+    left:42%;
+    top:50%;
+    text-align: center;
+    cursor: pointer;    
+}
+.left {
+    position: absolute;
+    left: 24%;
+    top: 68%;
+    text-align: center;
+    cursor: pointer;
+}
+.down {
+    position: absolute;
+    left: 42%;
+    top: 68%;
+    text-align: center;
+    cursor: pointer;
+}
+.right {
+    position: absolute;
+    top: 68%;
+    left: 60%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.up:before {
+    content: "\2191";
+    font-size: 50px;
+
+}
+.left:before {
+    content: "\2190";
+    font-size: 50px;
+
+}
+.down:before {
+    content: "\2193";
+    font-size: 50px;
+
+}
+.right:before {
+    content: "\2192";
+    font-size: 50px;
+
+}
+
+#box div {
+
+bordeR:5px solid black;
+
+
+}
+
+#box>div {
+
+    border:1px solid gray;
+}
